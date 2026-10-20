@@ -1,20 +1,12 @@
 # OctoAcme Project Management Docs
 
-This repository centralizes the core project management guidance for OctoAcme, making it easier for teams and stakeholders to understand how work is initiated, planned, delivered, and improved. The process is designed to be lightweight, cross-functional, and easy to follow while still providing enough structure for accountability, risk management, and consistent execution.
+This repository centralizes the core project management guidance for OctoAcme and provides a shared source of truth for how work is initiated, planned, delivered, and improved. OctoAcme follows a lightweight, cross-functional lifecycle that begins with validating the problem, confirming stakeholder alignment, and defining success metrics before a project is approved to move forward. Once the business need is clear, the team turns the idea into a prioritized backlog, timeline, and set of milestones so work is actionable and measurable from the outset.
 
-OctoAcme follows a straightforward project lifecycle: initiation, planning, execution, release, and close with a retrospective. During initiation, teams validate the problem, identify stakeholders, define success metrics, and decide whether to move forward. Planning then turns the approved idea into a backlog, timelines, milestones, and a definition of done. Execution focuses on iterative delivery, clear ownership, regular check-ins, and early escalation of blockers. Releases are managed with quality gates, smoke tests, and rollback readiness, while retrospectives capture lessons learned and convert them into continuous improvement actions.
+The project management model emphasizes clear roles and responsibilities across the delivery cycle. Product and project leads define outcomes and coordinate work, developers implement and test solutions, QA validates quality and acceptance criteria, and stakeholders provide business context and decision-making support. These roles are supported by principles such as customer-first thinking, iterative delivery, clear ownership, data-informed decisions, and psychological safety. Together, these practices help teams collaborate effectively while keeping customer value and delivery quality at the center of work.
 
-The project model emphasizes clear roles and responsibilities across the delivery lifecycle. Product and project leads set outcomes and coordinate work, developers implement and test features, QA validates acceptance and quality, and stakeholders provide input, approvals, and business context. This structure supports customer-first decision-making, data-informed prioritization, and a collaborative culture rooted in psychological safety. Communication is intentionally consistent: daily standups, weekly syncs, stakeholder updates, milestone demos, and escalation paths keep work visible and help teams act quickly when dependencies or risks arise.
+Communication is a key operational rhythm within OctoAcme. Daily standups, weekly project syncs, milestone reviews, and stakeholder updates keep work visible and make it easier to surface dependencies, risks, and blocker escalations early. The process also defines escalation paths, from team-level triage to PM and product leadership, with sponsor involvement reserved for business-critical issues. Risk management is handled through a risk register and project board workflow, ensuring cross-team dependencies are tracked, monitored, and addressed before they become delivery problems.
 
-Quality assurance is built into the workflow rather than treated as a final step. Teams are expected to write and maintain tests, use CI for linting and validation, run security checks, and perform smoke tests for critical flows before release. Risk tracking, dependency visibility, and regular retrospectives help reduce surprises and support ongoing improvement. The documents below provide the operational guidance behind this model and serve as a shared source of truth for how OctoAcme manages projects.
-
-## Project management lifecycle overview
-
-- Initiation: confirm the problem, stakeholders, goals, and business case
-- Planning: define scope, backlog, milestones, risks, and delivery expectations
-- Execution: build, review, test, track blockers, and iterate on feedback
-- Release: validate readiness, deploy, verify outcomes, and communicate changes
-- Retrospective: capture lessons learned and create action items for improvement
+Quality assurance is treated as a continuous project practice rather than a final step. Teams are expected to write and maintain tests, use CI to enforce linting and validation, run security checks, and perform smoke tests for critical user flows before release. Manual QA is used when needed to confirm acceptance criteria, and retrospectives are held after milestones or releases to capture lessons learned and convert them into action items. This combination of disciplined governance, role clarity, communication cadence, and quality gates helps OctoAcme deliver reliable improvements in a repeatable, transparent way.
 
 ## Documents
 
@@ -29,4 +21,4 @@ Quality assurance is built into the workflow rather than treated as a final step
 
 ## Purpose
 
-These documents help the team govern project work consistently, align stakeholders, improve delivery quality, and institutionalize repeatable project practices across OctoAcme initiatives.
+These process documents are designed to help teams govern work consistently, align stakeholders, improve delivery quality, and institutionalize repeatable project practices across OctoAcme initiatives.
